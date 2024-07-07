@@ -243,7 +243,7 @@
                 </div>
                 <p id="rating-value">Level of satisfaction: 0 stars</p>
                 <button id="submit-rating">Submit Review</button>
-                <p id="average-rating">Average Rating: 4.7 stars</p>
+                <p id="average-rating"> Average Rating:0 stars</p>
             </div>
         </section>
     </main>
@@ -314,7 +314,7 @@
             const ratingValue = document.getElementById('rating-value');
             const submitRating = document.getElementById('submit-rating');
             const averageRating = document.getElementById('average-rating');
-            let selectedRating = 0;
+            let selectedRating = 4.7;
 
             // Carrega avaliações anteriores do localStorage
             let ratings = JSON.parse(localStorage.getItem('ratings')) || [];
